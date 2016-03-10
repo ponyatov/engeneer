@@ -1,6 +1,6 @@
 PRJ = $(notdir $(CURDIR))
 
-TEX = $(PRJ).tex ../texheader/mini.tex bib.tex
+TEX = $(PRJ).tex ../texheader/mini.tex shorts.tex profhar.tex bib.tex
 
 LATEX = pdflatex -halt-on-error
 $(PRJ).pdf: $(TEX) Makefile
